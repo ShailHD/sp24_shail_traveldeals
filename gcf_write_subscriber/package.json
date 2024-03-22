@@ -1,0 +1,14 @@
+{
+    "name": "gcf-write-subscriber",
+    "version": "1.0.0",
+    "description": "A Google Cloud Function to save subscriber info to Firestore.",
+    "main": "index.js",
+    "dependencies": {
+        "@google-cloud/firestore": "^7.4.0",
+        "@sendgrid/mail": "^8.1.1",
+        "dotenv": "^8.2.0"
+    },
+    "engines": {
+        "node": "18"
+    }
+}
